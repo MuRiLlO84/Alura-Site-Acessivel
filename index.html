@@ -1,1 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Samba</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+ 
+    <!--CABEÇALHO!-->
+    <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="img/sambalogo.png" title="Letras de Caligrafia de Samba - Pinterest" alt="A imagem apresenta um logo colorido com o texto Samba escrito em letras cursivas. As letras são de cor verde-água, e ao redor delas há pequenas gotas de cores variadas, como rosa, laranja, azul e amarelo, que criam um efeito vibrante e alegre. O estilo do texto é dinâmico, transmitindo uma sensação de movimento."
+                class="nav-img " loading="lazy" height="190" width="285">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+
+            <div id="acessibilidade" class="menu-acessibilidade">
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="Diminuir o tamanho da fonte">A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold"> <i
+                            class="bi bi-shadows"></i></button>
+                </div>
+            </div>
+
+        </nav>
+
+    </header>
+    <!--FIM CABEÇALHO-->
+
+    <main class="container my-5">
+
+        <!--INÍCIO-->
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas ao</h1>
+
+                    <a href="#tropicalia" class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
+                        conhecer!</a>
+                </div>
+            </div>
+        </section>
+        <!--FIM INÍCIO-->
+
+        <!--O QUE FOI O SAMBA-->
+        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia" tabindex="0" aria-label="Seção explicativa sobre o Samba">
+            <div class="container d-flex align-items-center ">
+                <div class="col-5">
+                    <h2>O que foi o Samba?</h2>
+                    <p class="p-2">O samba é um gênero musical e uma dança popular brasileira, com raízes na cultura
+                        africana e influências europeias. Originário do Rio de Janeiro, o samba se tornou uma das
+                        expressões culturais mais importantes do Brasil, com diversas variantes e estilos.
+                        <br>
+                        <br>
+                        Fonte: Brasil Escola - <a href="https://brasilescola.uol.com.br/cultura/samba.htm" target="_blank">Visitar o site</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--FIM O QUE FOI O SAMBA-->
+
+        <!--GALERIA-->
+        <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/seujorge.webp" class="img-fluid rounded-5" loading="lazy" height="800"
+                            width="300" title="Foto do perfil do cantor Seu Jorge" alt="A foto mostra o cantor 'Seu Jorge' sorridente, com cabelo crespo e um bigode fino. Ele usa um terno escuro, uma camisa branca e uma gravata roxa. O fundo da imagem é claro, e ele parece estar em um evento formal.">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/pericles.webp" class="img-fluid rounded-5" loading="lazy" height="500"
+                            width="270" title="Foto de corpo inteiro do cantor Péricles" alt="A foto mostra o cantor 'Péricles' sorrindo, usando uma camisa estampada com folhas verdes e flores amarelas, enquanto segura um ukulele. Ele tem barba e cabelo grisalho. O fundo da imagem é claro e neutro, transmitindo uma sensação de leveza.">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/zecadopagode.png" class="img-fluid rounded-5" loading="lazy" height="500"
+                            width="270" title="Foto de corpo inteiro do cantor Zeca Pagodinho" alt="A imagem mostra o cantor 'Zeca Pagodinho' com cabelo curto e óculos escuros, sorrindo enquanto faz o gesto de 'joinha' com ambas as mãos. Ele usa uma camisa branca de botão e calças brancas, com um estilo descontraído. O fundo é neutro, com um tom de cinza claro, destacando a sua expressão alegre e o estilo casual.">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/gruporevelacao.webp" class="img-fluid rounded-5" loading="lazy" height="500"
+                            width="270" title="Foto do grupo Revelação" alt="A imagem apresenta o grupo 'Revelação' com sete homens sorrindo, vestidos com roupas brancas e claras, tocando instrumentos musicais típicos de samba e pagode. Entre os instrumentos, há guitarras, um tamborim, e outros instrumentos de percussão. Todos os músicos estão em poses relaxadas e felizes, criando uma atmosfera de camaradagem e música alegre. O fundo é simples, de cor neutra.">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--FIM GALERIA-->
+
+        <!--CONTATO-->
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill tamanho-botao">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--FIM CONTATO-->
+
+    </main>
+    <footer class="text-center p-3 fst-italic" tabindex="0">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por Murillo Tavares Bentlin. Projeto fictício sem fins comerciais.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+
+
+</body>
+
+</html>
